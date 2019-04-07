@@ -16,11 +16,6 @@ a0:86:c6:52:4e:e8,0.068962,0.068994,In
 a0:86:c6:52:4e:e8,0.083492,0.083544,Out
 a0:86:c6:52:4e:e8,0.083588,0.083620,In"""
 
-
-def make_schedule(site):
-    for i
-    return None
-
 def save_schedule(solution):
     print("save_schedule() function not implemented")
     return None

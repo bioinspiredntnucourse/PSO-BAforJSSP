@@ -8,7 +8,6 @@ from Site import Site
 def scout_bee_init(num_scout_bees, problem):
     scout_bees = []
 
-    #todo: this needs to be operations rather than integers
     for i in range(num_scout_bees):
         scout_bee = Bee(problem.num_operations)
         scout_bee.site = get_random_site(problem)

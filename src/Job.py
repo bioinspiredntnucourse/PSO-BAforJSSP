@@ -9,8 +9,8 @@ class Job:
             time = problem_line[i+1]
             operationNr = int(i/2)
             operation = Operation(machine, time, operationNr)
-            self.operations.append(operation)
             self.jobNr = jobNr
+            self.operations.append(operation)
 
     def __str__(self):
         string = ''

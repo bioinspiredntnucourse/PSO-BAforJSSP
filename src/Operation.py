@@ -10,7 +10,7 @@ class Operation:
         self.operationNr = operationNr
 
     def __str__(self):
-        string = 'Operation number: {}'.format(operation.operationNr) + ' \n'
-        string += '\t Machine: {}'.format(operation.machine) + '\n'
-        string += '\t Time   : {}'.format(operation.time) + '\n'
+        string = 'Operation number: {}'.format(self.operationNr) + ' \n'
+        string += '\t Machine: {}'.format(self.machine) + '\n'
+        string += '\t Time   : {}'.format(self.time) + '\n'
         return string
